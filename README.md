@@ -1,66 +1,100 @@
 # MacroStofft
 
-## About MacroStofft
+[![Website](https://img.shields.io/badge/website-macrostofft.com-0B5FFF)](https://macrostofft.com/)
+[![Focus: Applied AI](https://img.shields.io/badge/focus-applied%20AI-6F42C1)](#what-we-build)
+[![Stage: Active R&D](https://img.shields.io/badge/stage-active%20R%26D-2E8B57)](#company-status)
 
-**MacroStofft LLC** is an independent AI and software-development company founded by **William Bruce Stofft**, focused on applied artificial intelligence, machine learning, agent orchestration, workflow automation, and technical product development.
+**MacroStofft LLC is a full-stack AI development partner building practical systems from use-case strategy through secure deployment.**
 
-The work combines software engineering, AI/ML research, product strategy, and hands-on prototyping to move ideas from research and experimentation toward practical systems.
+Our operating principle is simple: **we build AI that fits the organization—not the other way around.** Current work spans artificial intelligence, machine learning, agentic systems, workflow automation, data strategy, and emerging superintelligence research.
 
-William Bruce Stofft holds an **M.S. in Computer Science with a specialization in Artificial Intelligence** and an **MBA**, with prior technology experience including **Apple, Motorola, and Dell**. Current technical work includes Python development, machine learning, quantitative analytics, healthcare AI, and AI-agent orchestration.
+## Company status
 
-## Current Projects
+MacroStofft is an early-stage company with active research and software prototypes. This repository is the public engineering portfolio and company overview; it does not represent a list of production customers or clinically deployed systems.
 
-### TEHI — The Eyes Have It
+## Leadership
 
-**TEHI** is an active medical-imaging AI research and product-development project exploring the use of fundus imagery for diabetic-retinopathy classification and cardiovascular-risk screening.
+- **Susan Stofft — Chief Executive Officer**
+  Brings three decades of medical-industry experience and leads healthcare context, company operations, and business direction.
 
-Current work includes a smartphone/web-oriented MVP architecture, inference integration framework, automated tests, and planning for future integration of trained TensorFlow Lite models.
+- **W. Bruce Stofft — Chief Technology Officer**
+  Holds an M.S. in Computer Science with a specialization in Artificial Intelligence and an MBA. His background includes technology work at Apple, Motorola, and Dell, with current focus on AI/ML engineering, quantitative research, healthcare AI, and agent orchestration.
 
-Repository: `BStofftTX/TEHI-AI-DR-project`
+## What we build
 
-### Quant-AI Research Platform
+### Custom machine learning
 
-**Quant-AI** is a Python-based quantitative research platform being developed to explore market-data analysis, portfolio and benchmark comparison, risk-adjusted performance, statistical analysis, and ML-oriented financial research.
+- Problem framing and data-readiness assessment
+- Computer vision and predictive-model prototypes
+- Evaluation, calibration, reproducibility, and model-risk controls
+- Replaceable inference architecture and deployment planning
 
-The project serves both as an applied quantitative-engineering environment and as an ongoing technical-development platform.
+### Generative and agentic AI
 
-Repository: `BStofftTX/quant-ai-research-platform`
+- Knowledge and workflow assistants
+- Multi-step agent orchestration
+- Human approval, auditability, and operational guardrails
+- Emerging superintelligence research and capability monitoring
 
-### PaulReeve — Agent Orchestration Environment
+### Data strategy and secure MLOps
 
-**PaulReeve** is a persistent AI-agent environment operated on a dedicated Mac mini using OpenClaw. It is used to explore practical agent orchestration across research, project analysis, documentation, software-development support, and multi-step workflows.
+- Data pipelines, schemas, provenance, and quality controls
+- Automated testing and continuous integration
+- Privacy-aware system architecture
+- Versioned deployment, monitoring, and rollback planning
 
-The environment provides a working laboratory for understanding how AI agents can maintain project context, coordinate tools and workflows, and contribute to longer-running technical and business projects.
+## Selected public engineering
 
-Internal configuration, credentials, operational logs, and private business materials are intentionally not published.
+| Project | Focus | Demonstrated engineering | Status |
+| --- | --- | --- | --- |
+| [TEHI — The Eyes Have It](https://github.com/BStofftTX/TEHI-AI-DR-project) | Medical-imaging AI research | Mobile-first screening workflow, replaceable model adapter, preserved graduate research, automated tests | Research MVP; not a medical device |
+| [PhxPict](https://github.com/BStofftTX/PhxPict) | Privacy-first local photo search | Cross-platform Python/Tkinter app, SQLite index, local CLIP classification, three-OS CI, CodeQL | Working MVP |
+| [RouteGuardTX](https://github.com/BStofftTX/RouteGuardTX) | Safety-conscious route planning | React/TypeScript UI, provider-neutral adapters, protected proxy design, accessibility CI, CodeQL | Planning MVP; not certified navigation |
+| [Quant-AI Research Platform](https://github.com/BStofftTX/quant-ai-research-platform) | Quantitative analytics and ML research | Portfolio/risk analytics, time-aware validation, walk-forward backtesting, 52 tests, dependency audit, CodeQL | Research platform; not investment advice |
 
-## Technical Focus
+Each repository documents its implemented capabilities, limitations, setup, tests, architecture, and next evidence gates.
 
-- Applied artificial intelligence and machine learning
-- Python software development and quantitative analytics
-- AI-agent orchestration and multi-step workflows
-- Healthcare and medical-imaging AI
-- Technical product architecture and MVP development
-- Workflow automation and AI-assisted operations
-- Research translation from concept to working prototype
+## Delivery approach
 
-## Selected Technologies
+```mermaid
+flowchart LR
+    A[Business or clinical need] --> B[Data and risk assessment]
+    B --> C[Focused prototype]
+    C --> D[Automated verification]
+    D --> E[Independent validation]
+    E --> F[Secure deployment plan]
+    F --> G[Monitoring and iteration]
+```
 
-**Languages & Data:** Python, JavaScript/Node.js, SQL/PostgreSQL
+1. **Define the decision or workflow** before selecting a model.
+2. **Evaluate data rights, quality, privacy, and failure costs.**
+3. **Build the smallest useful prototype** with clear interfaces.
+4. **Test behavior and negative cases** using reproducible automation.
+5. **Validate claims independently** before operational or clinical use.
+6. **Deploy with security, observability, auditability, and rollback controls.**
 
-**AI / ML:** TensorFlow, machine-learning and deep-learning workflows, model evaluation and inference architecture
+## Primary industry focus
 
-**Agent Systems:** OpenClaw, LLM-assisted development, agent orchestration and persistent AI workflows
+Healthcare is MacroStofft's primary focus, particularly administrative automation and responsible medical-AI research. Adjacent work includes government, finance, energy, banking, and small-business systems where measurable workflow improvement and accountable AI matter.
 
-**Engineering:** Git/GitHub, automated testing, Linux and macOS development environments
+## Engineering principles
 
-## Project Philosophy
+- Accuracy before speed; evidence before claims
+- Human oversight for consequential decisions
+- Clear separation between prototype, validated system, and production deployment
+- Privacy and security designed into the architecture
+- Reproducible testing and documented limitations
+- Provider-neutral interfaces where practical
+- No credentials, proprietary data, or private operational material in public repositories
 
-MacroStofft emphasizes practical engineering:
+## Internal agent operations
 
-- build working systems rather than demonstration-only concepts
-- connect research, product thinking, and implementation
-- use AI where it measurably improves workflow quality, speed, or capability
-- design prototypes with credible paths toward production systems
-- document architecture, assumptions, limitations, and intent clearly
-- maintain clear separation between public project work and private operational data
+MacroStofft also operates a private AI-agent environment for research, documentation, project analysis, and software-development support. Public repositories contain only reviewed project artifacts; credentials, operational logs, internal configuration, and private business materials remain unpublished.
+
+## Contact and security
+
+- Company website: [macrostofft.com](https://macrostofft.com/)
+- Engineering portfolio: [github.com/BStofftTX](https://github.com/BStofftTX)
+- Security concerns: follow [SECURITY.md](SECURITY.md) rather than opening a public vulnerability report
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for documentation corrections and focused public proposals.
