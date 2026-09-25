@@ -1,0 +1,22 @@
+name: Documentation correction
+description: Report a factual, link, accessibility, or clarity problem
+title: "[Docs]: "
+labels: [documentation]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include private business information, credentials, customer data, pricing, or unpublished project material.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Identify the inaccurate, unclear, inaccessible, or broken content.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction
+      description: Provide the suggested wording or destination link and its public source.
+    validations:
+      required: true
