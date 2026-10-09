@@ -47,6 +47,7 @@ MacroStofft is an early-stage company with active research and software prototyp
 
 | Project | Focus | Demonstrated engineering | Status |
 | --- | --- | --- | --- |
+| [Model to Production](https://github.com/BStofftTX/model-to-production) | ML delivery reference | Synthetic-data pipeline, time-aware evaluation, versioned artifact, FastAPI inference, Docker, CI, and lightweight traces | Reproducible reference; not deployed to a live cloud service |
 | [TEHI — The Eyes Have It](https://github.com/BStofftTX/TEHI-AI-DR-project) | Medical-imaging AI research | Mobile-first screening workflow, replaceable model adapter, preserved graduate research, automated tests | Research MVP; not a medical device |
 | [PhxPict](https://github.com/BStofftTX/PhxPict) | Privacy-first local photo search | Cross-platform Python/Tkinter app, SQLite index, local CLIP classification, three-OS CI, CodeQL | Working MVP |
 | [RouteGuardTX](https://github.com/BStofftTX/RouteGuardTX) | Safety-conscious route planning | React/TypeScript UI, provider-neutral adapters, protected proxy design, accessibility CI, CodeQL | Planning MVP; not certified navigation |
