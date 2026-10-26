@@ -50,7 +50,7 @@ MacroStofft is an early-stage company with active research and software prototyp
 | [TEHI — The Eyes Have It](https://github.com/BStofftTX/TEHI-AI-DR-project) | Medical-imaging AI research | Mobile-first screening workflow, replaceable model adapter, preserved graduate research, automated tests | Research MVP; not a medical device |
 | [PhxPict](https://github.com/BStofftTX/PhxPict) | Privacy-first local photo search | Cross-platform Python/Tkinter app, SQLite index, local CLIP classification, three-OS CI, CodeQL | Working MVP |
 | [RouteGuardTX](https://github.com/BStofftTX/RouteGuardTX) | Safety-conscious route planning | React/TypeScript UI, provider-neutral adapters, protected proxy design, accessibility CI, CodeQL | Planning MVP; not certified navigation |
-| [Quant-AI Research Platform](https://github.com/BStofftTX/quant-ai-research-platform) | Quantitative analytics and ML research | Portfolio/risk analytics, time-aware validation, walk-forward backtesting, 52 tests, dependency audit, CodeQL | Research platform; not investment advice |
+| [Quant-AI Research Platform](https://github.com/BStofftTX/quant-ai-research-platform) | Quantitative analytics and ML research | Portfolio/risk analytics, time-aware validation, walk-forward backtesting, 70-test verified demo baseline, dependency audit, CodeQL | Research platform; not investment advice |
 
 Each repository documents its implemented capabilities, limitations, setup, tests, architecture, and next evidence gates.
 
