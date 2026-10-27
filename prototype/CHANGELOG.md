@@ -13,6 +13,8 @@
 - Service cards name concrete outputs: applications/websites, supervised automation, and data/ML systems.
 - Proof uses actual Quant-AI screenshots, labeled as working research demonstration/mobile view; health and workflow items are labeled prototype/research with explicit boundaries.
 - Contact is an accessible, non-transmitting prototype form with a three-step human-reviewed inquiry workflow.
+- Leadership now identifies Susan Stofft (CEO; three decades of medical-industry experience) and W. Bruce Stofft (CTO; M.S. Computer Science, AI specialization, University of South Dakota, 2022).
+- The existing green-and-blue MacroStofft logo mark and existing role-based CEO/CTO email paths are retained; no backend is activated.
 - Navigation, colors, and an editorial blue/white visual system are preserved in a responsive static prototype.
 
 ## Safety and publication boundary

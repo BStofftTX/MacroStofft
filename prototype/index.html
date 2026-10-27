@@ -10,7 +10,7 @@
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="MacroStofft home">Macro<span>Stofft</span></a>
+      <a class="brand" href="#top" aria-label="MacroStofft home"><img src="assets/macrostofft-logo.png" alt="" /><span>MacroStofft</span></a>
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
       <nav id="site-nav" aria-label="Primary navigation">
         <a href="#services">Services</a>
@@ -112,19 +112,28 @@
         </ol>
       </section>
 
+      <section id="leadership" class="section leadership" aria-labelledby="leadership-title">
+        <div class="section-heading"><p class="eyebrow">Leadership</p><h2 id="leadership-title">Industry context and technical accountability.</h2></div>
+        <div class="leadership-grid">
+          <article><h3>Susan Stofft</h3><p class="leadership-role">Chief Executive Officer</p><p>Brings three decades of medical-industry experience to MacroStofft’s healthcare context, operations, and business direction.</p></article>
+          <article><h3>W. Bruce Stofft</h3><p class="leadership-role">Chief Technology Officer</p><p>Holds an M.S. in Computer Science with a specialization in Artificial Intelligence from the University of South Dakota (2022) and leads AI/ML engineering and technical delivery.</p></article>
+        </div>
+      </section>
+
       <section id="contact" class="section contact" aria-labelledby="contact-title">
         <div class="contact-copy">
           <p class="eyebrow">Start with the workflow</p>
           <h2 id="contact-title">Tell us what is getting in the way.</h2>
-          <p>Describe the process, the people using it, and the outcome you need. We will use that context to prepare a human-reviewed project conversation.</p>
+          <p>Describe the process, the people using it, and the outcome you need. A human reviews every inquiry before any response, scope, or commitment.</p>
           <ol class="inquiry-steps"><li>Share the workflow and desired result.</li><li>Identify systems, data, and constraints.</li><li>Schedule a human-reviewed discovery discussion.</li></ol>
+          <p class="contact-details"><strong>Existing review paths:</strong><br /><a href="mailto:CEO@MacroStofft.com?subject=MacroStofft%20Project%20Inquiry">CEO@MacroStofft.com</a> for project inquiries<br /><a href="mailto:CTO@MacroStofft.com?subject=MacroStofft%20Technical%20Inquiry">CTO@MacroStofft.com</a> for technical inquiries</p>
         </div>
         <form class="inquiry-form" data-demo-form aria-describedby="form-note">
           <label>Organization <input name="organization" autocomplete="organization" /></label>
           <label>What workflow should improve? <textarea name="workflow" rows="3"></textarea></label>
           <label>Preferred contact method <select name="contact"><option>Email</option><option>Phone</option><option>Other</option></select></label>
           <button class="button button-primary" type="submit">Prepare Project Inquiry</button>
-          <p id="form-note" class="form-note">Prototype only: this form does not transmit or store information.</p>
+          <p id="form-note" class="form-note">Prototype only: this form does not transmit or store information. Use an existing review path above to contact MacroStofft.</p>
           <p class="form-status" aria-live="polite"></p>
         </form>
       </section>
