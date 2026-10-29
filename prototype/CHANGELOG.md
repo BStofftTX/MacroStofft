@@ -1,5 +1,20 @@
 # Homepage conversion prototype — before and after
 
+## Direction A selected implementation — 2026-10-29
+
+- Replaced the rejected light presentation with the selected refined-original
+  dark charcoal design.
+- Enlarged the existing green-and-blue MacroStofft logo and restored a dark
+  header; the logo artwork itself was not altered.
+- Increased desktop and mobile reading scale while retaining visible desktop
+  primary actions and responsive mobile navigation.
+- Rebuilt project evidence around complete, uncropped Quant-AI screenshots
+  using `object-fit: contain`, with working/prototype/research boundaries.
+- Preserved leadership details, existing role-based human-review contact paths,
+  and the non-transmitting inquiry prototype.
+- Rendered desktop and mobile acceptance passed: no horizontal overflow or
+  browser errors; menu and inert-form interaction passed.
+
 ## Before
 
 - Large hero did not make the first action visible on the initial desktop view.

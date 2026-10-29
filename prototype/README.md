@@ -1,6 +1,7 @@
 # MacroStofft homepage conversion prototype
 
-This directory is a private, static redesign prototype. It is **not** connected
+This directory is a private, static redesign prototype. Direction **A**
+(refined original dark design) is the selected review direction. It is **not** connected
 to MacroStofft.com, WordPress, DNS, analytics, email, forms, or any production
 service.
 
@@ -19,6 +20,8 @@ Open `http://127.0.0.1:8877/` locally.
   demonstration, labeled by stage and boundary in the page.
 - `assets/homepage-*.png` — local browser-rendered before-approval review
   screenshots of this prototype.
+- `assets/selected-a-*.png` — rendered desktop and mobile evidence for the
+  selected Direction A implementation.
 - `CHANGELOG.md` — verified before/after conversion changes and safety limits.
 
 ## Approval gates
