@@ -15,6 +15,23 @@
 - Rendered desktop and mobile acceptance passed: no horizontal overflow or
   browser errors; menu and inert-form interaction passed.
 
+## Business-value content revision — 2026-10-30
+
+- Reframed the proof section as **“From Business Challenges to Intelligent
+  Solutions.”** and connected the homepage to data/workflow analysis,
+  bottleneck identification, software/algorithm delivery, and improvement.
+- Added the five-stage operating process: Analyze → Identify → Design → Build
+  → Improve, with a narrow factual statement about human feedback and formal
+  RLHF only where explicitly designed, trained, and validated.
+- Rewrote Quant-AI in plain English and retained its synthetic-data, research,
+  and non-advisory limits.
+- Replaced the visibly clipped legacy Quant-AI assets with new local captures
+  of the complete desktop and mobile interfaces; each has a full-resolution
+  view link.
+- Revised leadership copy from the public company README and owner-provided
+  requirements. Added desktop/mobile section captures and a full-page desktop
+  review image.
+
 ## Before
 
 - Large hero did not make the first action visible on the initial desktop view.

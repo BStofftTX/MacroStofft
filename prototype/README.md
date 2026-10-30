@@ -22,6 +22,10 @@ Open `http://127.0.0.1:8877/` locally.
   screenshots of this prototype.
 - `assets/selected-a-*.png` — rendered desktop and mobile evidence for the
   selected Direction A implementation.
+- `assets/review-revised-*.png` — the October 30 desktop/mobile section review
+  package and full-page desktop capture.
+- `assets/quant-ai-security-*-full.png` — recaptured complete Quant-AI desktop
+  and mobile source images used by the proof section.
 - `CHANGELOG.md` — verified before/after conversion changes and safety limits.
 
 ## Approval gates
